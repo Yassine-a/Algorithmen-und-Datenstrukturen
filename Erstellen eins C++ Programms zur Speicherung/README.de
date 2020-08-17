@@ -1,0 +1,68 @@
+##### SS 2018
+
+## 1 Praktikum 1 : Erstellen Sie ein C++ Programm zur Speicherung von Tweets
+
+Sie erstellen ein kleines Twitter-Programm. In diesem Programm lesen Sie kleine Tweets von der Tas-
+tatur ein. Diese werden mit Datum und Uhrzeit in einer verketteten Liste gespeichert. Alle bisherigen
+Tweet-Nachrichten sollen nach der Eingabe angezeigt werden.
+In der Aufgabenstellung erhalten Sie L ̈osungshinweise und Testbeispiele. Vervollst ̈andigen Sie die ge-
+gebenen Programmteile und f ̈ugen Sie weitere Tests hinzu. Gehen Sie unbedingt in der Reihenfolge
+der Aufgabenstellung vor.
+Die Aufgabenstellung gliedert sich in drei große Arbeitsschritte. Zu jedem Arbeitsschritt legen Sie
+bitte ein Projekt an, damit Sie die einzelnen Entwicklungsschritte im Praktikum erkl ̈aren und zeigen
+k ̈onnen.
+
+### 1.1 Aufgabenstellung
+
+1. Der erste Teil der Aufgabe besteht darin, dass Sie eine Klasse bereit stellen, die die Datenstruktur
+    einer dynamisch, doppelt verketteten Liste zur Verf ̈ugung stellt. Um die Aufgabe zun ̈achst zu
+    vereinfachen gehen wir von der Speicherung von integer-Werten (als key) aus.
+    Zur Speicherung der Daten ben ̈otigen wir eine Klasse Node. Die Klasse List dient zur Verwaltung
+    der Datenstruktur und die Klasse Node zu Speicherung der Inhalte.
+    Wir ben ̈otigen folgende Dateien:
+
+```
+Node.h Headerdatei der Klasse Node
+Node.cpp c++ Quelle der Klasse Node
+List.h Headerdatei der Klasse List
+List.cpp c++ Quelle der Klasse List
+main.cpp Testprogramm fur die Klasse List ̈
+```
+```
+Diese Dateien liegen als Download auf dem ILIAS-Server (Aufgabe1a - zip-archivierte Dateien).
+Kopieren Sie die Dateien in ein neues C++ Projekt. Ver ̈andern Sienichtdie Headerdateien und
+auch nicht die Datei ”Node.cpp”. F ̈ugen Sie den fehlenden Code in die Quelldateien ein (List.cpp
+oder main.cpp).
+```
+```
+In der C++ Quelle der Klasse List sind einige Methoden nur allgemein sprachlich in der zu
+erfullenden Funktion beschrieben. Erzeugen Sie den notwendigen C++ Quellcode. ̈
+Die main.cpp enth ̈alt ein Testprogramm mit dem die Methoden der Klasse gepr ̈uft werden
+k ̈onnen. Dort k ̈onnen Sie auch weitere Testbeispiele einf ̈ugen.
+```
+2. Der zweite Teil der Aufgabe besteht darin, dass Sie die Klasse List und die Klasse Node je zu
+    einer Template Klasse umbauen.
+    Gehen Sie wie folgt vor:
+
+
+Fachbereich
+Elektrotechnik und
+Informationstechnik ADS Praktikum
+
+##### SS 2018
+
+```
+Kopieren Sie alle Dateien in ein neues Projekt. Anschließend wird der Programmteil von Node.
+cpp in die Datei Node.h kopiert (unterhalb der Klassendefinition). Anschließend kopieren Sie
+den Programmteil von List.cpp in List.h und l ̈oschen dann die Dateien Node.cpp und List.cpp.
+Das Programm ist nach diesem Umbau lauff ̈ahig!
+Jetzt bauen Sie beide Klassen zu Template Klassen um.
+Die ̈uberladenen Operatoren werden wie normale Methoden zu Template-Methoden umgesetzt.
+Eine Besonderheit sind die friend-Operatoren. Hier ist eine zus ̈atzliche Template-Deklarierung
+notwendig. Aus diesem Grund sind diese Teile des Quellcodes nochmals vorgegeben (Download-
+bereich ILIAS-Server: Aufgabe1b).
+```
+3. Der letzte Teil der Aufgabe besteht nun darin, die urspr ̈ungliche Aufgabe zu realisieren. Kopieren
+    Sie dazu wieder alle Datein vom 2. Projekt in ein neues Projekt außer die Datei main.cpp. Dafur ̈
+    fugen Sie die Datei tweet.h und main.cpp ein (Downloadbereich ILIAS-Server: Aufgabe1c). ̈
+
