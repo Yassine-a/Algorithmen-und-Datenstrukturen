@@ -1,4 +1,4 @@
-## 1 Praktikum 1 : Erstellen Sie ein C++ Programm zur Speicherung von Tweets
+## 1 Praktikum 1 : Erstellen eins C++ Programms zur Speicherung von Tweets
 
 Sie erstellen ein kleines Twitter-Programm. In diesem Programm lesen Sie kleine Tweets von der Tas-
 tatur ein. Diese werden mit Datum und Uhrzeit in einer verketteten Liste gespeichert. Alle bisherigen
