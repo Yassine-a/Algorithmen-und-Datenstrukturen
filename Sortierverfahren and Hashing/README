@@ -1,0 +1,6 @@
+Ihre Vorgesetzten bei der Firma “Data Fuse Inc.” sind begeistert von Ihren Fähigkeiten! Da die
+Verarbeitungsgeschwindigkeit der enormen Datenmengen weiter optimiert werden muss wurden Sie
+beauftragt, ein Framework zur Messung von Laufzeiten zu entwickeln. Mit Hilfe dieses Programms
+sollen Sie anschließend die Ausführungsdauer verschiedener Sortieralgorithmen in Abhängigkeit einer
+Problemgröße n untersuchen und auswerten. Mit Hilfe von OpenMP sollen die Ausführungszeiten
+gemessen werden
