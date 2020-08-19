@@ -1,0 +1,6 @@
+Sie sind nach wie vor als Systemarchitekt bei Data-Fuse und konnten Ihre Kollegen bereits mit den
+Programm zur Datenhaltung und -verarbeitung überzeugen. Es hat sich aber herausgestellt, dass ein
+Binärbaum zur Datenhaltung hier nicht optimal ist. Bei großen Datenmengen kann es zu entarteten
+Bäumen kommen. Um z.B. die Suche zu optimieren, sollen Sie dies durch die Organisation mittels
+eines ausgeglichenen Baumes ersetzen. Hierzu wählen Sie einen Rot-Schwarz-Baum mit der Top-Down
+Einfügemethode.
